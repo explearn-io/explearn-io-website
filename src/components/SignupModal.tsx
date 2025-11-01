@@ -149,17 +149,19 @@ const SignupModal = ({ open, onOpenChange, preSelectedTrack }: SignupModalProps)
         created_at: new Date().toISOString()
       };
 
-      // Insert data into Supabase
-      const { data: insertedData, error } = await supabase
-        .from('registrations')
-        .insert([registrationData])
-        .select();
+      console.log(registrationData.track)
 
-      if (error) {
-        throw error;
-      }
+      // // Insert data into Supabase
+      // const { data: insertedData, error } = await supabase
+      //   .from('registrations')
+      //   .insert([registrationData])
+      //   .select();
 
-      console.log("Registration successful:", insertedData);
+      // if (error) {
+      //   throw error;
+      // }
+
+      // console.log("Registration successful:", insertedData);
       
       // Clear localStorage
       localStorage.removeItem(STORAGE_KEY);
