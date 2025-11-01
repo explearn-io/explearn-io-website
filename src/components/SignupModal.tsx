@@ -6,7 +6,6 @@ import { AlertDialog, AlertDialogAction, AlertDialogCancel, AlertDialogContent, 
 import { Button } from "@/components/ui/button";
 import { SignupFormData } from "@/types/signup";
 import { signupFormSchema } from "@/lib/validationSchemas";
-import { supabase } from "@/lib/supabase";
 import PersonalInfoStep from "./signup/PersonalInfoStep";
 import ExperienceStep from "./signup/ExperienceStep";
 import CourseSelectionStep from "./signup/CourseSelectionStep";
