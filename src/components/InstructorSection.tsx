@@ -21,7 +21,7 @@ const InstructorSection = () => {
       id: "2",
       name: "Vincent Sortoh, MSc",
       title: "Solution & Software Solution Architect",
-      bio: "Vincent Sortoh is a Software Architect and Data Engineer with over a 15 years of experience designing and delivering scalable systems across fintech, telecommunications, and AI-driven platforms. His background spans full-stack engineering, data infrastructure, and cloud-based application development for organizations such as Vodafone and national banks. At Explearn.io, Vincent brings hands-on expertise in software design, data engineering, and system scalability-helping learners bridge the gap between robust architecture and real-world deployment.",
+      bio: "Vincent Sortoh is a Software Architect and Data Engineer with over a 15 years of experience designing and delivering scalable systems across fintech, telecommunications, and AI-driven platforms. His background spans full-stack engineering, data infrastructure, and cloud-based application development for organizations such as Vodafone and national banks. At Explearn.io, Vincent brings hands-on expertise to bridge the gap between robust architecture and real-world deployment.",
       tags: ["Software Architecture", "Enterprise Applications", "Cloud Systems", "Data Engineering", "Full-Stack Development"],
       photoUrl: ins2,
       linkedInUrl: "https://www.linkedin.com/in/vincentsortoh/",
