@@ -44,7 +44,7 @@ const Hero = ({ onStartLearning }: HeroProps) => {
       </div>
 
       {/* Dark Overlay */}
-      <div className="absolute inset-0 z-[1] bg-black/60" />
+      <div className="absolute inset-0 z-[1] bg-black/30" />
 
       {/* Content */}
       <div className="container mx-auto px-6 md:px-12 lg:px-16 relative z-[2] pt-20">
@@ -52,7 +52,8 @@ const Hero = ({ onStartLearning }: HeroProps) => {
           {/* Left Column - 60% */}
           <div className="lg:col-span-3 animate-fade-in">
             <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold text-foreground mb-6 leading-tight">
-              Expert Teaching. Simple Learning.
+              Expert Teaching<br />
+              Simple Learning
             </h1>
             <p className="text-2xl md:text-3xl text-foreground/80 mb-6 font-medium">
               Learn by building — where curiosity meets real-world engineering.
@@ -78,8 +79,8 @@ const Hero = ({ onStartLearning }: HeroProps) => {
               <img src={icon} alt="ExpLearn Icon" className="w-12 h-12" />
               <div>
                 <p className="text-sm text-foreground leading-relaxed">
-                  Accede a contenido exclusivo diseñado para impulsar tus habilidades en IA y machine learning con
-                  proyectos prácticos del mundo real.
+                  At Explearn, we believe strong fundamentals never go out of date.<br />
+                  Our mission is to make high-quality AI and engineering education accessible to young professionals everywhere — empowering them to grow, adapt, and stay relevant in a fast-changing world.
                 </p>
               </div>
             </div>

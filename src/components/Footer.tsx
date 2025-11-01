@@ -11,7 +11,6 @@ const Footer = () => {
             <img src={logo} alt="ExpLearn" className="h-8 mb-4" />
             <p className="text-sm text-muted-foreground mb-4">
               Transform your career with cutting-edge AI education. 
-              Learn from experts and build real-world projects.
             </p>
             <p className="text-sm text-muted-foreground mb-4">
               Learn from experts and build real-world projects.
