@@ -52,14 +52,13 @@ const Hero = ({ onStartLearning }: HeroProps) => {
           {/* Left Column - 60% */}
           <div className="lg:col-span-3 animate-fade-in">
             <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold text-foreground mb-6 leading-tight">
-              Aprendizaje 3.0
+              Expert Teaching. Simple Learning.
             </h1>
             <p className="text-2xl md:text-3xl text-foreground/80 mb-6 font-medium">
-              Master AI & Software Architecture
+              Learn by building — where curiosity meets real-world engineering.
             </p>
             <p className="text-lg text-muted-foreground max-w-2xl mb-8 leading-relaxed">
-              Descubre el futuro de la educación en inteligencia artificial. Cursos diseñados por expertos para
-              transformar tu carrera profesional con proyectos del mundo real.
+              Gain strong fundamentals to navigate the ever-evolving space of AI with confidence.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 mb-12">
