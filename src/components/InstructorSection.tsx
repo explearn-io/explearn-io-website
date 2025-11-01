@@ -1,8 +1,8 @@
 import InstructorCard from "./InstructorCard";
 import { Instructor } from "@/types/instructor";
 // import iconPattern from "@/assets/explearn-icon-pattern.svg";
-import patternImage from "@/assets/expLearn-icon-geometry-black.svg";
-import iconPattern from "@/assets/Explearn_icon_black.png";
+// import patternImage from "@/assets/expLearn-icon-geometry-black.svg";
+// import iconPattern from "@/assets/Explearn_icon_black.png";
 import ins1 from "@/assets/ins1.jpeg";
 import ins2 from "@/assets/ins2.jpeg";
 
@@ -12,8 +12,7 @@ const InstructorSection = () => {
       id: "1",
       name: "Arturo Gomez Chavez, PhD",
       title: "AI & Robotics Solution Architect",
-      bio: "",
-     // bio: "With over 15 years in AI research and development, Dr. Chen has led the implementation of large language models at Fortune 500 companies. She specializes in production-ready LLM systems and has published extensively on AI safety and scalability.",
+      bio: "With over 15 years in AI research and development, Arturo Gomez Chavez has led the implementation of large language models at Fortune 500 companies. He specializes in production-ready LLM systems and has published extensively on AI safety and scalability.",
       tags: ["LLM Integration", "AI Safety", "Microservices", "Cloud Architecture", "Python", "PyTorch"],
       photoUrl: ins1,
       linkedInUrl: "https://www.linkedin.com/in/gomezchavez-arturo/",
@@ -22,8 +21,7 @@ const InstructorSection = () => {
       id: "2",
       name: "Vincent Sortoh, MSc",
       title: "Software Architecture | Solution Architect",
-      bio: "",
-      //bio: "Vinent 12 years of experience architecting enterprise systems and leading engineering teams. He's passionate about teaching developers how to design scalable, maintainable systems using modern architectural patterns and AI-powered tools.",
+      bio: "Vinent has over 10 years of experience architecting enterprise systems and leading engineering teams. He's passionate about teaching developers how to design scalable, maintainable systems using modern architectural patterns and AI-powered tools.",
       tags: ["System Design", "Microservices", "DevOps", "Kubernetes", "Go", "TypeScript"],
       photoUrl: ins2,
       linkedInUrl: "https://www.linkedin.com/in/vincentsortoh/",
