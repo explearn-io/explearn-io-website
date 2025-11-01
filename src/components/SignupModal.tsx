@@ -13,6 +13,7 @@ import GoalsStep from "./signup/GoalsStep";
 import SuccessMessage from "./signup/SuccessMessage";
 import { ChevronLeft, ChevronRight, Loader2 } from "lucide-react";
 import { useToast } from "@/hooks/use-toast";
+import { supabase } from "@/lib/supabase";
 
 interface SignupModalProps {
   open: boolean;
@@ -135,7 +136,7 @@ const SignupModal = ({ open, onOpenChange, preSelectedTrack }: SignupModalProps)
         full_name: data.personal.fullName,
         email: data.personal.email,
         phone: data.personal.phone || null,
-        current_role: data.experience.currentRole,
+        role: data.experience.currentRole,
         programming_years: data.experience.programmingYears,
         technologies: data.experience.technologies,
         llm_experience: data.experience.llmExperience,
@@ -150,17 +151,17 @@ const SignupModal = ({ open, onOpenChange, preSelectedTrack }: SignupModalProps)
 
       console.log(registrationData.track)
 
-      // // Insert data into Supabase
-      // const { data: insertedData, error } = await supabase
-      //   .from('registrations')
-      //   .insert([registrationData])
-      //   .select();
+      // Insert data into Supabase
+      const { data: insertedData, error } = await supabase
+        .from('registrations')
+        .insert([registrationData])
+        .select();
 
-      // if (error) {
-      //   throw error;
-      // }
+      if (error) {
+        throw error;
+      }
 
-      // console.log("Registration successful:", insertedData);
+      console.log("Registration successful:", insertedData);
       
       // Clear localStorage
       localStorage.removeItem(STORAGE_KEY);
