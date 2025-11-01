@@ -56,7 +56,7 @@ const Hero = ({ onStartLearning }: HeroProps) => {
               Simple Learning
             </h1>
             <p className="text-2xl md:text-3xl text-foreground/80 mb-6 font-medium">
-              Learn by building - where curiosity meets real-world engineering.
+              Learn by building: where curiosity meets real-world engineering.
             </p>
             {/* <p className="text-lg text-muted-foreground max-w-2xl mb-8 leading-relaxed">
               Gain strong fundamentals to navigate the ever-evolving space of AI with confidence.
@@ -78,7 +78,7 @@ const Hero = ({ onStartLearning }: HeroProps) => {
     
               <img src={icon} alt="ExpLearn Icon" className="w-12 h-12" />
               <div>
-                <p className="text-sm text-foreground leading-relaxed">
+                <p className="text-lg text-foreground leading-relaxed">
                   At Explearn, we believe strong fundamentals never go out of date.<br />
                   Our mission is to make high-quality AI and engineering education accessible to young professionals everywhere - empowering them to grow, adapt, and stay relevant in a fast-changing world.
                 </p>
