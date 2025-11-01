@@ -13,7 +13,10 @@ const Footer = () => {
               Transform your career with cutting-edge AI education. 
               Learn from experts and build real-world projects.
             </p>
-            <div className="flex gap-4">
+            <p className="text-sm text-muted-foreground mb-4">
+              Learn from experts and build real-world projects.
+            </p>
+            {/* <div className="flex gap-4">
               <a
                 href="https://linkedin.com"
                 target="_blank"
@@ -32,7 +35,7 @@ const Footer = () => {
               >
                 <Twitter className="w-5 h-5" />
               </a>
-            </div>
+            </div> */}
           </div>
 
           {/* Quick Links */}
@@ -61,16 +64,16 @@ const Footer = () => {
           <div>
             <h3 className="text-sm font-semibold text-foreground mb-4">Contact</h3>
             <ul className="space-y-2">
-              <li className="flex items-center gap-2 text-sm text-muted-foreground">
+              {/* <li className="flex items-center gap-2 text-sm text-muted-foreground">
                 <Mail className="w-4 h-4" />
                 <a href="mailto:info@explearn.com" className="hover:text-primary transition-colors">
                   info@explearn.com
                 </a>
-              </li>
-              <li className="flex items-center gap-2 text-sm text-muted-foreground">
+              </li> */}
+              {/* <li className="flex items-center gap-2 text-sm text-muted-foreground">
                 <Phone className="w-4 h-4" />
                 <span>+1 (555) 123-4567</span>
-              </li>
+              </li> */}
             </ul>
           </div>
         </div>
