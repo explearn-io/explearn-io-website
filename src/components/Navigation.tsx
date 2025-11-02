@@ -14,7 +14,7 @@ const Navigation = ({ onContactClick }: NavigationProps) => {
     { label: "Home", href: "#home" },
     { label: "Courses", href: "#courses" },
     { label: "Instructors", href: "#instructors" },
-    { label: "About", href: "#about" }
+    // { label: "About", href: "#about" }
   ];
 
   const scrollToSection = (href: string) => {
