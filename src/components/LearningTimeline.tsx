@@ -112,7 +112,7 @@ const LearningTimeline = () => {
       </div>
 
       {/* Additional info box */}
-      <div className="mt-8 p-5 bg-card/20 backdrop-blur-sm rounded-xl border border-border">
+      <div className="mt-8 p-5 bg-card/90 backdrop-blur-sm rounded-xl border border-border">
         <p className="text-muted-foreground text-sm">✨ Progresión personalizada</p>
       </div>
     </div>
