@@ -30,7 +30,7 @@ const CourseSelectionStep = ({ form, preSelectedTrack }: CourseSelectionStepProp
                 AI Fundamentals
               </Label>
               <p className="text-sm text-muted-foreground mt-1">
-                Perfect for beginners. Learn AI concepts from scratch and build your first ML models.
+                Perfect for beginners. Demonstrate a solid understanding of core concepts through hands-on demos for your portfolio.
               </p>
             </div>
           </div>
@@ -39,10 +39,10 @@ const CourseSelectionStep = ({ form, preSelectedTrack }: CourseSelectionStepProp
             <RadioGroupItem value="development" id="track-development" className="mt-1" />
             <div className="flex-1">
               <Label htmlFor="track-development" className="font-semibold cursor-pointer">
-                LLM Development
+                AI Production Ready
               </Label>
               <p className="text-sm text-muted-foreground mt-1">
-                For developers ready to integrate LLMs into applications with production-ready strategies.
+                For developers ready to turn prototypes into production-grade apps using robust data pipelines, MLOps, and cloud engineering practices.
               </p>
             </div>
           </div>
@@ -51,10 +51,10 @@ const CourseSelectionStep = ({ form, preSelectedTrack }: CourseSelectionStepProp
             <RadioGroupItem value="architecture" id="track-architecture" className="mt-1" />
             <div className="flex-1">
               <Label htmlFor="track-architecture" className="font-semibold cursor-pointer">
-                AI Architecture
+                Enterprise Solutions
               </Label>
               <p className="text-sm text-muted-foreground mt-1">
-                Advanced track for architects designing scalable AI systems and leading transformations.
+                For enterprises and teams looking for tailor-made solutions, built for reliability, scalability and real impact in your business
               </p>
             </div>
           </div>
@@ -75,13 +75,13 @@ const CourseSelectionStep = ({ form, preSelectedTrack }: CourseSelectionStepProp
           <div className="flex items-center space-x-2">
             <RadioGroupItem value="live" id="format-live" />
             <Label htmlFor="format-live" className="font-normal cursor-pointer">
-              Live Online Classes
+              Live Online Classes / Mentoring
             </Label>
           </div>
           <div className="flex items-center space-x-2">
             <RadioGroupItem value="self-paced" id="format-self" />
             <Label htmlFor="format-self" className="font-normal cursor-pointer">
-              Self-paced with Mentorship
+              Self-paced with Mentorship / Support for enterprise teams
             </Label>
           </div>
           <div className="flex items-center space-x-2">
