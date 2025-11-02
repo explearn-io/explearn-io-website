@@ -44,7 +44,7 @@ const Hero = ({ onStartLearning }: HeroProps) => {
       </div>
 
       {/* Dark Overlay */}
-      <div className="absolute inset-0 z-[1] bg-black/30" />
+      <div className="absolute inset-0 z-[1] bg-black/10" />
 
       {/* Content */}
       <div className="container mx-auto px-6 md:px-12 lg:px-16 relative z-[2] pt-20">
@@ -79,8 +79,8 @@ const Hero = ({ onStartLearning }: HeroProps) => {
               <img src={icon} alt="ExpLearn Icon" className="w-12 h-12" />
               <div>
                 <p className="text-lg text-foreground leading-relaxed">
-                  At Explearn, we believe strong fundamentals never go out of date.<br />
-                  Our mission is to make high-quality AI and engineering education accessible to young professionals everywhere - empowering them to grow, adapt, and stay relevant in a fast-changing world.
+                  At Explearn, we believe <strong>strong fundamentals</strong> never go out of date.<br />
+                  Our mission is to make <strong>high-quality AI and engineering education accessible to young professionals<strong> everywhere - empowering them to <strong>grow, adapt, and stay relevant</strong> in a fast-changing world.
                 </p>
               </div>
             </div>
