@@ -13,9 +13,9 @@ const TargetGroupCards = ({ onLearnMore }: TargetGroupCardsProps) => {
       icon: BookOpen,
       title: "AI Fundamentals",
       bullets: [
-        "Master AI concepts from scratch",
-        "Build your first ML models",
-        "Hands-on Python projects"
+        "Understand the core principles of AI and machine learning",
+        "Build functional demos to strengthen your portfolio",
+        "Develop confidence through hands-on Python projects"
       ]
     },
     {
@@ -24,9 +24,9 @@ const TargetGroupCards = ({ onLearnMore }: TargetGroupCardsProps) => {
       icon: TrendingUp,
       title: "AI Production Ready",
       bullets: [
-        "Integrate LLMs into applications",
-        "API design & optimization",
-        "Production deployment strategies"
+        "Transform prototypes into production-grade applications",
+        "Implement robust data pipelines and MLOps workflows",
+        "Apply cloud engineering best practices for scalability"
       ]
     },
     {
@@ -35,9 +35,9 @@ const TargetGroupCards = ({ onLearnMore }: TargetGroupCardsProps) => {
       icon: Award,
       title: "Enterprise Solutions",
       bullets: [
-        "Design scalable AI systems",
-        "Microservices & cloud patterns",
-        "Lead AI transformation projects"
+        "Architect AI systems for reliability and scalability",
+        "Adopt microservices and cloud-native design patterns",
+        "Deliver real business impact through tailored AI solutions"
       ]
     }
   ];
