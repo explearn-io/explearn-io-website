@@ -80,7 +80,7 @@ const Hero = ({ onStartLearning }: HeroProps) => {
               <div>
                 <p className="text-lg text-foreground leading-relaxed">
                   At Explearn, we believe <strong>strong fundamentals</strong> never go out of date.<br />
-                  Our mission is to make <strong>high-quality AI and engineering education accessible to young professionals<strong> everywhere - empowering them to <strong>grow, adapt, and stay relevant</strong> in a fast-changing world.
+                  Our mission is to make <strong>high-quality AI and engineering education accessible to young professionals</strong> everywhere - empowering them to <strong>grow, adapt, and stay relevant</strong> in a fast-changing world.
                 </p>
               </div>
             </div>
