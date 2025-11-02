@@ -89,13 +89,13 @@ const LearningTimeline = () => {
   const levels: Level[] = [
     { name: "AI Fundamentals", description: "Demonstrate a solid understanding of core concepts through hands-on demos for your portfolio", icon: BookOpen },
     { name: "AI Production Ready", description: "Turn prototypes into production-grade apps using robust data pipelines, MLOps, and cloud engineering practices.", icon: TrendingUp },
-    { name: "Enterprise Solutions", description: "Tailor made solutions, built for reliability, scalability and real impact in your business", icon: Award },
+    { name: "Enterprise Solutions", description: "Tailor-made solutions, built for reliability, scalability and real impact in your business", icon: Award },
   ];
   
   return (
     <div className="hidden lg:flex flex-col pt-8 animate-fade-in w-full">
       <div className="mb-6">
-        <h3 className="text-foreground/80 text-lg font-semibold uppercase tracking-wider mb-4">Learning Journey</h3>
+        <h2 className="text-foreground/80 text-lg font-semibold uppercase tracking-wider mb-4">Learning Journey</h2>
       </div>
 
       <div className="relative w-full">
