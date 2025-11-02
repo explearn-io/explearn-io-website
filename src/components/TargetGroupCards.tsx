@@ -13,8 +13,8 @@ const TargetGroupCards = ({ onLearnMore }: TargetGroupCardsProps) => {
       icon: BookOpen,
       title: "AI Fundamentals",
       bullets: [
-        "Understand the core principles of AI and machine learning",
-        "Build functional demos to strengthen your portfolio",
+        "Understand the core principles of machine learning, AI and agents",
+        "Build functional demos to strengthen your portfolio, e.g., github, website)",
         "Develop confidence through hands-on Python projects"
       ]
     },
@@ -25,7 +25,7 @@ const TargetGroupCards = ({ onLearnMore }: TargetGroupCardsProps) => {
       title: "AI Production Ready",
       bullets: [
         "Transform prototypes into production-grade applications",
-        "Implement robust data pipelines and MLOps workflows",
+        "Implement robust data pipelines, monitoring and MLOps workflows",
         "Apply cloud engineering best practices for scalability"
       ]
     },
@@ -35,9 +35,9 @@ const TargetGroupCards = ({ onLearnMore }: TargetGroupCardsProps) => {
       icon: Award,
       title: "Enterprise Solutions",
       bullets: [
-        "Architect AI systems for reliability and scalability",
-        "Adopt microservices and cloud-native design patterns",
-        "Deliver real business impact through tailored AI solutions"
+        "Design tailor-made AI architectures for your organization",
+        "Ensure reliability and scalability across business operations",
+        "Deliver measurable impact through production-ready AI systems"
       ]
     }
   ];
