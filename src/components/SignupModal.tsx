@@ -225,7 +225,7 @@ const SignupModal = ({ open, onOpenChange, preSelectedTrack }: SignupModalProps)
         <DialogContent className="max-w-2xl max-h-[90vh] overflow-y-auto bg-white">
           <DialogHeader>
             <DialogTitle className="text-2xl">
-              {isSuccess ? "" : "Master LLM & Software Architecture"}
+              {isSuccess ? "" : "Explearn Course Info Registration"}
             </DialogTitle>
           </DialogHeader>
 

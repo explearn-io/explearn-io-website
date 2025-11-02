@@ -75,7 +75,7 @@ const CourseSelectionStep = ({ form, preSelectedTrack }: CourseSelectionStepProp
           <div className="flex items-center space-x-2">
             <RadioGroupItem value="live" id="format-live" />
             <Label htmlFor="format-live" className="font-normal cursor-pointer">
-              Live Online Classes / Mentoring
+              Live Online Classes / Close Mentoring
             </Label>
           </div>
           <div className="flex items-center space-x-2">

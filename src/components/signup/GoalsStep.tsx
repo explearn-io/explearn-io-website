@@ -17,7 +17,7 @@ const GoalsStep = ({ form }: GoalsStepProps) => {
     <div className="space-y-6">
       <div>
         <Label htmlFor="achievements" className="text-foreground">
-          What do you hope to achieve with this training? <span className="text-destructive">*</span>
+          What do you hope to achieve with this training / consultation? <span className="text-destructive">*</span>
         </Label>
         <Textarea
           id="achievements"
