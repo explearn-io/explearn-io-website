@@ -3,7 +3,7 @@ import { BookOpen, TrendingUp, Award } from "lucide-react";
 
 interface Level {
   name: string;
-  duration: string;
+  description: string;
   icon: typeof BookOpen;
 }
 
@@ -67,14 +67,14 @@ const TimelineLevel = ({ level, icon: Icon, isActive, onClick, index }: Timeline
           >
             {level.name}
           </p>
-          {level.duration && (
+          {level.description && (
             <p
               className={`
               text-xs mt-1 transition-colors duration-300
               ${isActive ? "text-primary" : "text-muted-foreground"}
             `}
             >
-              {level.duration}
+              {level.description}
             </p>
           )}
         </div>
@@ -87,9 +87,9 @@ const LearningTimeline = () => {
   const [activeLevel, setActiveLevel] = useState(0);
 
   const levels: Level[] = [
-    { name: "AI Fundamentals", duration: "8 semanas", icon: BookOpen },
-    { name: "AI Production Ready", duration: "12 semanas", icon: TrendingUp },
-    { name: "Enterprise Solutions", duration: "16 semanas", icon: Award },
+    { name: "AI Fundamentals", description: "Show solid understanding of core concepts through functional demos for your portfolio", icon: BookOpen },
+    { name: "AI Production Ready", description: "Convert your prototype to a production app through data pipelines, MLOPs and cloud engineering", icon: TrendingUp },
+    { name: "Enterprise Solutions", description: "Tailor made solutions, architected for your business to be reliable and scalable", icon: Award },
   ];
 
   return (
