@@ -1,4 +1,4 @@
-import { GraduationCap, Code, Network } from "lucide-react";
+import { GraduationCap, Code, Network, BookOpen, TrendingUp, Award } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import iconPattern from "@/assets/Explearn_icon_black.png";
 interface TargetGroupCardsProps {
@@ -10,7 +10,7 @@ const TargetGroupCards = ({ onLearnMore }: TargetGroupCardsProps) => {
     {
       id: 'foundations' as const,
       number: "01",
-      icon: GraduationCap,
+      icon: BookOpen,
       title: "AI Fundamentals",
       bullets: [
         "Master AI concepts from scratch",
@@ -21,8 +21,8 @@ const TargetGroupCards = ({ onLearnMore }: TargetGroupCardsProps) => {
     {
       id: 'development' as const,
       number: "02",
-      icon: Code,
-      title: "LLM Development",
+      icon: TrendingUp,
+      title: "AI Production Ready",
       bullets: [
         "Integrate LLMs into applications",
         "API design & optimization",
@@ -32,8 +32,8 @@ const TargetGroupCards = ({ onLearnMore }: TargetGroupCardsProps) => {
     {
       id: 'architecture' as const,
       number: "03",
-      icon: Network,
-      title: "AI Architecture",
+      icon: Award,
+      title: "Enterprise Solutions",
       bullets: [
         "Design scalable AI systems",
         "Microservices & cloud patterns",
@@ -51,7 +51,7 @@ const TargetGroupCards = ({ onLearnMore }: TargetGroupCardsProps) => {
             Choose Your Learning Path
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            From fundamentals to advanced architecture - find the perfect track for your skill level
+            From fundamentals to advanced architecture  & enterprise solutions
           </p>
         </div>
 
