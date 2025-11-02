@@ -87,15 +87,15 @@ const LearningTimeline = () => {
   const [activeLevel, setActiveLevel] = useState(0);
 
   const levels: Level[] = [
-    { name: "Básico", duration: "8 semanas", icon: BookOpen },
-    { name: "Intermedio", duration: "12 semanas", icon: TrendingUp },
-    { name: "Avanzado", duration: "16 semanas", icon: Award },
+    { name: "AI Fundamentals", duration: "8 semanas", icon: BookOpen },
+    { name: "AI Production Ready", duration: "12 semanas", icon: TrendingUp },
+    { name: "Enterprise Solutions", duration: "16 semanas", icon: Award },
   ];
 
   return (
     <div className="hidden lg:flex flex-col pt-8 animate-fade-in w-full">
       <div className="mb-6">
-        <h3 className="text-foreground/80 text-sm font-semibold uppercase tracking-wider mb-4">Ruta de Aprendizaje</h3>
+        <h3 className="text-foreground/80 text-lg font-semibold uppercase tracking-wider mb-4">Learning Journey</h3>
       </div>
 
       <div className="relative w-full">
