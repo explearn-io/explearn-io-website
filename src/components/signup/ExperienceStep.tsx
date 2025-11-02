@@ -58,6 +58,12 @@ const ExperienceStep = ({ form }: ExperienceStepProps) => {
           <p className="text-sm text-destructive mt-1">{errors.experience.currentRole.message}</p>
         )}
       </div>
+      
+      <div>
+        <Label className="text-foreground">
+          Answer for you or in case of enterprises, the average experience of your team <span className="text-destructive">*</span>
+        </Label>
+      </div>
 
       <div>
         <Label className="text-foreground">
