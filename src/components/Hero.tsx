@@ -47,7 +47,7 @@ const Hero = ({ onStartLearning }: HeroProps) => {
       <div className="absolute inset-0 z-[1] bg-black/10" />
 
       {/* Content */}
-      <div className="container mx-auto px-6 md:px-12 lg:px-16 relative z-[2] pt-20">
+      <div className="container mx-auto px-6 md:px-12 lg:px-16 relative z-[2] pt-28 md:pt-20">
         <div className="grid lg:grid-cols-5 gap-12 items-start">
           {/* Left Column - 60% */}
           <div className="lg:col-span-3 animate-fade-in">
