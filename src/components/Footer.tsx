@@ -10,10 +10,10 @@ const Footer = () => {
           <div className="md:col-span-2">
             <img src={logo} alt="ExpLearn" className="h-8 mb-4" />
             <p className="text-sm text-muted-foreground mb-4">
-              Transform your career with cutting-edge AI education. 
+              Transform your career with cutting-edge AI education 
             </p>
             <p className="text-sm text-muted-foreground mb-4">
-              Learn from experts and build real-world projects.
+              Learn from experts and build real-world projects
             </p>
             {/* <div className="flex gap-4">
               <a
