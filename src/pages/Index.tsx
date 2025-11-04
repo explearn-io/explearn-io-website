@@ -23,7 +23,7 @@ const Index = () => {
         <Hero onStartLearning={() => handleOpenSignup()} />
         <TargetGroupCards onLearnMore={handleOpenSignup} />
         <InstructorSection />
-        <Footer />
+        <Footer onContactClick={() => handleOpenSignup()} />
       </main>
 
       <SignupModal 

@@ -1,7 +1,11 @@
 import logo from "@/assets/expLearn-logo-icon-black.svg";
 import { Linkedin, Twitter, Mail, Phone } from "lucide-react";
 
-const Footer = () => {
+interface FooterProps {
+  onContactClick: () => void;
+}
+
+const Footer = ({ onContactClick }: FooterProps) => {
   return (
     <footer id="contact" className="bg-card border-t border-border py-12">
       <div className="container mx-auto px-6 md:px-12 lg:px-16">
@@ -61,7 +65,12 @@ const Footer = () => {
 
           {/* Contact Info */}
           <div>
-            <h3 className="text-sm font-semibold text-foreground mb-4">Contact</h3>
+            <h3
+              onClick={onContactClick}
+              className="text-sm font-semibold text-foreground mb-4 cursor-pointer hover:text-primary transition-colors"
+            >
+              Contact
+            </h3>
             <ul className="space-y-2">
               {/* <li className="flex items-center gap-2 text-sm text-muted-foreground">
                 <Mail className="w-4 h-4" />
