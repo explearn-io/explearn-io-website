@@ -4,7 +4,7 @@ import { Instructor } from "@/types/instructor";
 // import patternImage from "@/assets/expLearn-icon-geometry-black.svg";
 // import iconPattern from "@/assets/Explearn_icon_black.png";
 import ins1 from "@/assets/ins1.jpeg";
-import ins2 from "@/assets/ins2.jpeg";
+// import ins2 from "@/assets/ins2.jpeg";
 
 const InstructorSection = () => {
   const instructors: Instructor[] = [
@@ -17,15 +17,15 @@ const InstructorSection = () => {
       photoUrl: ins1,
       linkedInUrl: "https://www.linkedin.com/in/gomezchavez-arturo/",
     },
-    {
-      id: "2",
-      name: "Vincent Sortoh, MSc",
-      title: "Solution & Software Solution Architect",
-      bio: "Vincent Sortoh is a Software Architect and Data Engineer with over a 15 years of experience designing and delivering scalable systems across fintech, telecommunications, and AI-driven platforms. His background spans full-stack engineering, data infrastructure, and cloud-based application development for organizations such as Vodafone and national banks. At Explearn.io, Vincent brings hands-on expertise to bridge the gap between robust architecture and real-world deployment.",
-      tags: ["Software Architecture", "Enterprise Applications", "Cloud Systems", "Data Engineering", "Full-Stack Development"],
-      photoUrl: ins2,
-      linkedInUrl: "https://www.linkedin.com/in/vincentsortoh/",
-    },
+    // {
+    //   id: "2",
+    //   name: "Vincent Sortoh, MSc",
+    //   title: "Solution & Software Solution Architect",
+    //   bio: "Vincent Sortoh is a Software Architect and Data Engineer with over a 15 years of experience designing and delivering scalable systems across fintech, telecommunications, and AI-driven platforms. His background spans full-stack engineering, data infrastructure, and cloud-based application development for organizations such as Vodafone and national banks. At Explearn.io, Vincent brings hands-on expertise to bridge the gap between robust architecture and real-world deployment.",
+    //   tags: ["Software Architecture", "Enterprise Applications", "Cloud Systems", "Data Engineering", "Full-Stack Development"],
+    //   photoUrl: ins2,
+    //   linkedInUrl: "https://www.linkedin.com/in/vincentsortoh/",
+    // },
   ];
 
   return (
