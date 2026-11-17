@@ -5,3 +5,6 @@ gitignore# Environment variables
 
 # Supabase
 .supabase/
+# Dependencies and build output
+node_modules/
+dist/
